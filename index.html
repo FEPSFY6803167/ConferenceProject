@@ -3,6 +3,27 @@
   <HEAD>
     <h1><b> Applications of Virtual Reality beyond recreational activities </b></h1>
     
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .table {
+            width: 50%;
+        }
+        
+        .image {
+            width: 50%;
+            text-align: center;
+        }
+        
+        .image img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    </style>
+    
     <!style for tables>
       <style>
         table {
@@ -109,11 +130,13 @@ Table 1 and Figure 1 both show the increase in literature of virtual reality in 
     </pre>
   </p>
   
-  <div style="float: left;">
     <h>Table 1 [2] : Table cited from Cipresso, Giglioli, Mariano and Guiseppe’s article (2018) on 
     Virtual and Augmented Reality research.</h>
-  <table>
-
+  <body>
+    <div class="container">
+        <div class="table">
+            <table>
+    
     <tr>
       <th><b>%</b></th>
       <th><b>Frequency</b></th>
@@ -227,12 +250,12 @@ Table 1 and Figure 1 both show the increase in literature of virtual reality in 
     </tr>
   
   </table>
-  </div>
-  <div style="float: left;">
-    <img src="figureone.png" alt="Figure One" width="400" height="250">
-  </div>
-
-  
+        </div>
+        <div class="image">
+            <img src="figureone.png" alt="Figure One">
+        </div>
+    </div>
+  </body>  
 
   
 </html>
